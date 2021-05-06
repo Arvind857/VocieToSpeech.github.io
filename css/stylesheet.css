@@ -1,0 +1,76 @@
+/* Created by Space Kitty 💕 */
+
+/* Created by Space Kitty 💕 */
+
+:root {
+    --t: #9600FF;
+}
+
+* {
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+}
+
+html,
+body {
+    margin: 0;
+}
+
+html {
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    padding: 20px;
+}
+
+body,
+body * {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 25px;
+    margin: 1rem 0;
+}
+
+input {
+    display: block;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    color: #222222;
+}
+
+input::placeholder {
+    color: #D0D0D0;
+}
+
+button {
+    border: none;
+    background-color: var(--t);
+    color: #FFF;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+input,
+button {
+    width: 100%;
+    outline: none;
+    margin: 15px 0;
+    padding: 10px;
+    border-radius: 3px;
+    font-size: 20px;
+}
+
+h1,
+#output {
+    color: var(--t);
+}
+
+#output {
+    border: 3px solid var(--t);
+    padding: 20px;
+    font-size: 17px;
+}
